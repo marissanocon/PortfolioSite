@@ -84,7 +84,10 @@ nav li a:hover {
   grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
   grid-template-rows: auto;
   grid-gap: 10px;
-  padding-top: 200px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 50px;
   padding-bottom: 200px;
   grid-template-areas:
   ". a b c ."
@@ -95,16 +98,16 @@ nav li a:hover {
 .box-styling {
   height: 350px;
   background-color: rgb(110, 110, 110);
-  /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+  
 }
 
 .box-wrapper{
 height:350px;
 border-radius: 1%;
+overflow: clip;
 }
 .box1 {
   grid-area: a;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 
 }
 
@@ -159,10 +162,6 @@ footer{
   width:50%;
 }
 
-.box-styling {
-  
-}
-
 
 
 /* footer */
@@ -173,6 +172,10 @@ footer{
 @media (max-width:735px){
   nav {
       padding-left: 0;
+  }
+  .navbar {
+
+    font-size: 15px;
   }
   .container{
     min-width:100%;
@@ -219,3 +222,4 @@ footer{
     width: 70%;
     margin: 10%}
 }
+
