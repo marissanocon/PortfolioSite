@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'religath regular';
-    src: url('fonts/RELIGATH Regular.ttf') format('truetype');
-    }
-
 /* Resetting default margin and padding */
 * {
     margin: 0;
@@ -24,8 +19,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    text-align: center;
-    padding: 300px 0;
+    height: 550px;
 }
 
 /* Styling the hero content */
@@ -34,26 +28,37 @@ body {
     margin: 0 auto;
 }
 
-/* Styling the hero heading */
 .hero-content h1 {
-    font-size: 100px;
-    background-color: rgb(227, 209, 255);
-    color: black;
+    font-family: "amandine", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 80px;
+    background-color: rgb(241, 226, 255);
+    color: #333;
     position: relative;
-    margin-bottom: 20px;
-    top: -200px;
-    left: -320px;
-    text-wrap:nowrap;
+    top: 50px;
+    left: -450px;
+    text-wrap: nowrap;
+    text-align: right;
+    padding-right: 35px;
 }
 
-/* Styling the hero paragraph */
 .hero-content h2 {
+    font-family: "amandine", sans-serif;
+    font-weight: 500;
+    font-style: regular;
     text-align: left;
-    font-size: 100px;
-    background-color: rgb(227, 209, 255);
-    color: black;
+    font-size: 80px;
+    background-color: rgb(241, 226, 255);
+    color: #333;
     position: relative;
-    left: 300px;
+    top: 50px;
+    left: 685px;
+    width: 400px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
 }
 
 /* Styling the hero button
