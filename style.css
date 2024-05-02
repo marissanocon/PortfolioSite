@@ -69,7 +69,7 @@ svg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px 400px 400px 400px;
-    grid-row-gap: 100px;
+    grid-row-gap: 75px;
 }
 .workstitle {
     grid-column: 1 / -1;
