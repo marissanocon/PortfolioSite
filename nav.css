@@ -15,16 +15,16 @@ nav {
   }
 
 .navbar-menu {
-    list-style: none; /* Remove default list styles */
-    display: flex; /* Use flexbox for menu items */
-  }
+    list-style: none;
+    display: flex;
+}
 
   .navbar-menu li {
-    margin-right: 100px; /* Adjust spacing between menu items */
+    margin-right: 100px;
   }
 
   .navbar-menu li:last-child {
-    margin-right: 0; /* Remove margin from last menu item */
+    margin-right: 0;
   }
 
 /* Styling the list */
